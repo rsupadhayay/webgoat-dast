@@ -73,7 +73,7 @@ jobs:
           ls -l ${GITHUB_WORKSPACE}          
       - name: Upload SAST reports
         env:
-          AK_URL: cspm.dev.accuknox.com
+          AK_URL: cspm.demo.accuknox.com
           TENANT_ID: 2245
           AK_TOK: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI5MDY0MTg5LCJqdGkiOiI4N2YwOWRkOTNjNDM0YWVkOThmNjA1Nzc4NGU2OWZjZiIsImlzcyI6ImNzcG0uZGVtby5hY2N1a25veC5jb20ifQ.ZP6QmLWRu6Rk1IofWW4k-istybE6PYhVjl90_7RiopRIxIEZE5aV51Jc0BOf3ZjY2rL4Dkm3hPaQktmvoTaMbhUdRgvrYdrZWfnwCXK62IaSJ4uoupHDXxEcFgdb5q-peThvUNwpWKcCRXlF72rfDK4uBsTyfuHaRVfVeJV3Ge4nPFgfl6lQy6HPlbB_XE1NhUxFs9Ur3MQPheqYqSXqfRcHhhgI4GMQSBBUCEunjs5LZzgZ2_CY-eUOYT-MXcXh5GKgDiYUJ2OcdykT6gox8W4TeZbbpV6Ca2r16L_Wi5syEk4xk2tcxHqyYFMyHrkAEtzRSrEoiSRRXh3vGzYz8A
         run: |
